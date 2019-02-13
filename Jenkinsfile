@@ -13,7 +13,8 @@ node('master') {
     
     stage('Run tests') {
       withMaven(maven: 'Maven 3') {
-            sh 'mvn clean test -Dwebdriver.type=chrome -Dwebdriver.chrome.driver=E:/Workspace/chromedriver.exe'
+            sh 'mvn clean test -Dwebdriver.type=remote -Dwebdriver.url=http://localhost:4444/wd/hub -Dwebdriver.cap.browserName=chrome'
+
       }
     }
 }

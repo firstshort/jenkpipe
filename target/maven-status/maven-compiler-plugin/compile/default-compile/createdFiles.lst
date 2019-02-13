@@ -1,0 +1,4 @@
+org/art/krazymike/pageobjects/SearchComponent.class
+org/art/krazymike/pageobjects/WikipediaPage.class
+org/art/krazymike/GuiceModule.class
+org/art/krazymike/pageobjects/DefinitionPage.class
